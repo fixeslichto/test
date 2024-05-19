@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Base */
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    padding-top: 80px;
+}
+
+
+/* Header */
+.header {
+    padding-bottom: 80px;
+    padding-left: 80px;
+
+    border-bottom-right-radius: 100px;
+    background-color: #252525;
+    background: #252525 linear-gradient(158deg, #2f2f2f 0%, #202020 100%);
+    color: #fff;
+}
+
+.header-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 60px;
+
+}
+
+.clan-logo {
+    border-radius: 80px;
+}
+
+.header-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.header-text {
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 300;
+
+}
+
+.header-btns {
+    display: flex;
+    column-gap: 20px;
+}
+
+.btn {
+    height: 48px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    background-color: black;
+    border-radius: 8px;
+
+    color: #fff;
+    line-height: 1;
+
+    transition: all 0.4s ease-in;
+
+
+}
+
+.btn:hover {
+    background-color: #696969;
+}
+
+.btn-outline {
+    height: 48px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    border: 1px solid #3B3B3B;
+    border-radius: 8px;
+
+    color: #fff;
+    line-height: 1;
+
+    transition: all 0.4s ease-in;
+
+}
+
+.btn-outline:hover {
+    background-color: #778899;
+}
+
+/* info-clan */
+
+.info-clan {
+    padding: 80px 0;
+
+}
+
+.info-title {
+    margin-bottom: 65px;
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+    align-items: center;
+}
+
+.project1 {
+    text-align: right;
+}
+
+
+
+
+.project {
+    text-align: center;
+}
+
+.clan-img {
+    margin-bottom: 30px;
+    border-radius: 30px;
+
+}
+
+
+
+.info-desc {
+    text-align: left;
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    color: #202225;
+    margin-top: -377px;
+
+}
+
+
+
+
+.project-title {
+    font-size: 22px;
+    text-align: center;
+
+}
+
+.project-title a {
+    color: #000000;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.tuimg {
+    margin-bottom: 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+
+    transition: opacity 0.2s ease-in;
+}
+
+.tuimg:hover {
+    opacity: 0.8;
+}
+
+/* Contacts */
+
+.contacts {
+    padding: 40px 0;
+    border-top-left-radius: 100px;
+    background-color: #252525;
+    color: #fff;
+
+}
+
+.contacts-title {
+    margin-bottom: 65px;
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.messangers {
+    display: flex;
+    column-gap: 30px;
+
+}
