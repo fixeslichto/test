@@ -185,7 +185,7 @@ body {
 /* Contacts */
 
 .contacts {
-    padding: 40px 0;
+    padding: 5px 0;
     border-top-left-radius: 100px;
     background-color: #252525;
     color: #fff;
@@ -203,5 +203,53 @@ body {
 .messangers {
     display: flex;
     column-gap: 30px;
+
+}
+
+.messanger {
+    flex-grow: 1;
+
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+
+    padding: 46px 20px;
+    border-radius: 20px;
+    border: 1px solid #363636;
+
+    color: #fff;
+    font-size: 20px;
+
+    transition: background-color 0.2s ease-in;
+}
+
+.messanger:hover {
+    background-color: #1E1E1E;
+}
+
+/* Footer */
+
+.footer {
+    padding: 10px 0;
+    background-color: #1E1E1E;
+
+    color: #5D5D5D;
+
+
+}
+
+.footer a {
+    color: #5886A8;
+
+}
+
+.footer-inner  {
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.footer-inner p + p {
+    margin-top: 15px;
 
 }
